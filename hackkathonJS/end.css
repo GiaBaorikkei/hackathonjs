@@ -1,0 +1,46 @@
+.end{
+    display: flex;
+    flex-direction: row;
+    margin-top: 400px;
+    background-color:ghostwhite ;
+    margin-left: 200px;
+    width: 1400px;
+    gap: 40px;
+}
+.collumninfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 25px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 20px; /* Điều chỉnh khoảng cách giữa các ô */
+  }
+.tab input{
+    margin-left: 20px ;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border-width: 0px ;
+    background-color: rgb(4, 173, 117);
+    color: white;
+    border-radius: 5px;
+}
+.image {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+}
+.end .row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 20px;
+}
+.row .col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./admin.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="header">
+        <span class="header1">
+            <button>@</button>
+            <input type="text" placeholder="#Project name" id="ip1">
+        </span>
+        <span class="header1">
+            <button>@</button>
+            <input type="text" placeholder="Image URL" id="ip2">
+        </span>
+        <span class="header1">
+            <button>@</button>
+            <input type="text" placeholder="Link" id="ip3">
+        </span>
+        <span class="header1">
+            <button>@</button>
+            <input type="text" placeholder="Tags(Ex:React,Angular)" id="ip4">
+        </span>
+        <button class="bt1" onclick="addFile()">+ new project</button>
+    </div>
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Project name</th>
+            <th>Image URL</th>
+            <th>Link</th>
+            <th>Tags</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Auto Drive Project</td>
+            <td>https://picsum.photos/300/300</td>
+            <td>https://abcd-example.com</td>
+            <td>
+                <button class="bt4">Angular</button>
+                <button class="bt4">React</button>
+                <button class="bt4">Jquery</button>
+            </td>
+            <td>
+                <button class="bt2">Delete</button>
+                <button class="bt3">Update</button>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ecommerce Project</td>
+            <td>https://picsum.photos/300/300</td>
+            <td>https://abcd-example.com</td>
+            <td>
+                <button class="bt4">Bootstrap</button>
+                <button class="bt4">CSS</button>
+                <button class="bt4">Javascript</button>
+            </td>
+            <td>
+                <button class="bt2">Delete</button>
+                <button class="bt3">Update</button>       
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Chat Application</td>
+            <td>https://picsum.photos/300/300</td>
+            <td>https://abcd-example.com</td>
+            <td>
+                <button class="bt4">MongoDB</button>
+                <button class="bt4">Javascript</button>  
+            </td>
+            <td>
+                <button class="bt2">Delete</button>
+                <button class="bt3">Update</button>  
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Social Media Platform</td>
+            <td>https://picsum.photos/300/300</td>
+            <td>https://abcd-example.com</td>
+            <td>
+                <button class="bt4">Vue</button>
+                <button class="bt4">Javascript</button>  
+            </td>
+            <td>
+                <button class="bt2">Delete</button>
+                <button class="bt3">Update</button>  
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Image Sharing Platform</td>
+            <td>https://picsum.photos/300/300</td>
+            <td>https://abcd-example.com</td>
+            <td>
+                <button class="bt4">React</button>
+                <button class="bt4">Javascript</button>    
+            </td>
+            <td>
+                <button class="bt2">Delete</button>
+                <button class="bt3">Update</button>  
+            </td>
+        </tr>
+    </table>
+  </body>
+  <script src="./admin.js"></script>
+</html>

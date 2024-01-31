@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 150px;
+}
+.detail .header1{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    font-size: 30px;
+    margin-left: 250px;
+}
+.header1 .collumn1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.header1 table {
+    border-collapse: collapse; /* Gộp viền của các ô */
+}
+
+.header1 td {
+    padding: 10px; /* Tạo khoảng cách xung quanh nội dung của ô */
+}
+.collumn1 i{
+    border-radius: 50%;
+    border: 2px solid black; 
+    padding: 10px; 
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.app .row1{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 100px;
+}
+.app .block{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    width: 300px;
+    height: 100px;
+    border-radius: 10%;
+}
+.block img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.app .block1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 20px;
+    width: 175px;
+}
+.app .row2{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 500px;
+}
+.footer1{
+    display: flex;
+    flex-direction: row;
+    background-color:aliceblue;
+    position: relative;
+    height: 200px;
+    padding-top: 2%;
+    width: 1900px;
+}
+.footer1 img{
+    position: absolute;
+    right: 10px;
+    width: 300px;
+    z-index: 0;
+}
+.footer1 .row1{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+.footer1 .collumn1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 300px ;
+    font-size: 25px;
+}
+input[type="text"] {
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Đặt viền xám cho ô văn bản */
+    color: #888; /* Đặt màu chữ xám cho "Email Address" */
+}
+
+.footer1 input[type="submit"] {
+    width: 150px;
+    height: 40px;
+    margin-left: -10px;
+    font-size: 18px;
+    border-radius: 10%;
+    background-color: #000; /* Đặt màu nền đen cho nút gửi */
+    color: #fff; /* Đặt màu chữ trắng cho nút gửi */
+    border: 1px solid #000; /* Đặt viền đen cho nút gửi */
+    padding: 10px;
+    cursor: pointer;
+}
+
